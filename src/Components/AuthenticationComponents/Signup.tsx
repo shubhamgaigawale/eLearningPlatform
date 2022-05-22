@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, TextField } from '@mui/material'
-import './Signup.less'
+import './Signup.css'
 
 
 export default function Signup() {

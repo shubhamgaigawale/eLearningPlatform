@@ -1,8 +1,8 @@
 import "./App.css";
 import "./Components/UI Components/Common Components/HeaderComponents/Header"
 import Header from "./Components/UI Components/Common Components/HeaderComponents/Header";
-import Signin from "./Components/AuthenticationComponents/Signin";
 import Signup from "./Components/AuthenticationComponents/Signup";
+import SignIn from "./Components/AuthenticationComponents/Signin";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
      {/* <Header/> */}
       {/* <h1>Hello World</h1> */}
       <Signup/>
-      <Signin/>
+      <SignIn/>
     </div>
   );
 }
