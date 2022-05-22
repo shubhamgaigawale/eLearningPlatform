@@ -1,6 +1,5 @@
 import React from "react";
 import MuiButton from "@mui/material/Button";
-import SendIcon from "@mui/icons-material/Send";
 
 export type ButtonVariant = "text" | "contained" | "outlined" | undefined;
 export type ButtonFontSize = "small" | "large" | "medium" | undefined;
@@ -23,7 +22,6 @@ const Button = (props: ButtonProps) => {
       disabled={props.disabled}
       style={props.style}
       onClick={props.onClick}
-      endIcon={<SendIcon />}
       size={props.size || "medium"}
     >
       <div className="dpc-button__text">{props.children}</div>
